@@ -15,7 +15,7 @@ from langchain.agents import initialize_agent, AgentType
 
 
 # 🔑 OpenAI Key
-os.environ["OPENAI_API_KEY"] = "Place your API key here"
+os.environ["OPENAI_API_KEY"] = ""
 
 # 📥 Load task from txt file
 with open("task.txt", "r") as f:
