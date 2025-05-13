@@ -22,7 +22,7 @@ async def main():
     # llm = ChatGroq(model="llama3-8b-8192")
 
     # Create agent with the client
-    agent = MCPAgent(llm=llm, client=client, max_steps=30)
+    agent = MCPAgent(llm=llm, client=client, max_steps=30, verbose=True)
 
     # Run the query
     result = await agent.run(
