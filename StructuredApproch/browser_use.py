@@ -21,7 +21,7 @@ async def main():
     # Run the query
     result = await agent.run(
         """
-        Navigate to https://github.com/mcp-use/mcp-use, got to list of issues.
+        Navigate to google, search my name Partha sai guttikonda. and who am i.
         """,
         max_steps=30,
     )
