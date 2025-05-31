@@ -22,7 +22,7 @@ This project uses the [@playwright/mcp](https://github.com/microsoft/playwright-
 ## 🔧 Requirements
 
 - Python 3.8+
-- MCP server running locally at `http://localhost:3000`
+- MCP server running locally at `http://localhost:3000` (refer this to learn how to run MCP server locally [this](https://huggingface.co/blog/lynn-mikami/microsoft-playwright-mcp))
 
 ---
 
