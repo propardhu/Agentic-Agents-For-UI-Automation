@@ -17,6 +17,8 @@ This project uses the [@playwright/mcp](https://github.com/microsoft/playwright-
 
 ---
 
+## 🔄 working code is in structured Approch folder.
+
 ## 🔧 Requirements
 
 - Python 3.8+
@@ -29,4 +31,5 @@ This project uses the [@playwright/mcp](https://github.com/microsoft/playwright-
 ### 1. Install Python dependencies
 
 ```bash
-pip install mcp-use
+pip install python-dotenv langchain langchain-openai mcp-use
+
