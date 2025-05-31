@@ -21,7 +21,10 @@ async def main():
     # Run the query
     result = await agent.run(
         """
-        Navigate to google, search my name Partha sai guttikonda. and who am i.
+        Navigate to https://practicetestautomation.com/practice-test-login/.
+        Enter username 'student' and password 'Password123'.
+        Click the 'Submit' button.
+        Verify that the login is successful by checking for a confirmation message.
         """,
         max_steps=30,
     )
